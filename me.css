@@ -1,233 +1,209 @@
-/* colors: cream, brown, dark green */
-:root {
-  --cream: #f5ecd7;
-  --light-cream: #fbf5e6;
-  --brown: #6b4423;
-  --green: #1f4d36;
-}
-
-/* sab cheezon ka reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Georgia, serif;
-  background-color: var(--cream);
-  color: var(--brown);
-  line-height: 1.6;
+    font-family: Georgia, serif;
+    background-color: #f5ecd7;
+    color: #6b4423;
+    line-height: 1.6;
 }
 
 a {
-  color: var(--green);
-  text-decoration: none;
+    color: #1f4d36;
+    text-decoration: none;
 }
 
 h2 {
-  color: var(--green);
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 30px;
+    color: #1f4d36;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 section {
-  padding: 60px 8%;
+    padding: 60px 8%;
 }
 
-/* navbar */
+/* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 8%;
-  background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #1f4d36;
 }
 
 .logo {
-  color: var(--cream);
+    color: #f5ecd7;
 }
 
 .nav-links {
-  display: flex;
-  gap: 25px;
-  list-style: none;
+    display: flex;
+    gap: 25px;
+    list-style: none;
 }
 
 .nav-links a {
-  color: var(--cream);
+    color: #f5ecd7;
 }
 
-/* about section */
+/* About Section */
 .about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .about-text {
-  width: 55%;
+    width: 55%;
 }
 
 .hello {
-  color: var(--green);
+    color: #1f4d36;
 }
 
 .about-text h1 {
-  font-size: 48px;
-  margin-bottom: 15px;
+    font-size: 48px;
+    margin-bottom: 15px;
 }
 
 .btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 24px;
-  background-color: var(--brown);
-  color: var(--cream);
-  border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 24px;
+    background-color: #6b4423;
+    color: #f5ecd7;
+    border-radius: 6px;
 }
 
 .profile-img {
-  width: 260px;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 6px solid var(--green);
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #1f4d36;
 }
 
-/* education table */
+/* Education Table */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: var(--light-cream);
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fbf5e6;
 }
 
-th, td {
-  padding: 14px;
-  text-align: left;
-  border: 1px solid var(--brown);
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #6b4423;
 }
 
 th {
-  background-color: var(--brown);
-  color: var(--cream);
+    background-color: #6b4423;
+    color: #f5ecd7;
 }
 
-/* skills ke cards */
+/* Skills Cards */
 .skill-cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .card {
-  flex: 1;
-  background-color: var(--light-cream);
-  border: 2px solid var(--brown);
-  border-radius: 10px;
-  padding: 20px 10px;
-  text-align: center;
+    flex: 1;
+    background-color: #fbf5e6;
+    border: 2px solid #6b4423;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
 }
 
 .card img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .card p {
-  color: var(--green);
-  font-weight: bold;
+    color: #1f4d36;
+    font-weight: bold;
 }
 
-/* contact section */
+/* Contact Section */
 .contact-box {
-  display: flex;
-  gap: 40px;
-  align-items: stretch;
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
 }
 
-/* left side: 2 x 2 cards */
 .details {
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .detail-card {
-  background-color: var(--light-cream);
-  border: 2px solid var(--brown);
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  word-break: break-word;
+    background-color: #fbf5e6;
+    border: 2px solid #6b4423;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-break: break-word;
 }
 
 .detail-card h3 {
-  color: var(--green);
-  margin-bottom: 8px;
+    color: #1f4d36;
+    margin-bottom: 8px;
 }
 
-/* right side: form */
 .msg-form {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background-color: var(--light-cream);
-  border: 2px solid var(--brown);
-  border-radius: 10px;
-  padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fbf5e6;
+    border: 2px solid #6b4423;
+    border-radius: 10px;
+    padding: 25px;
 }
 
 .msg-form input,
 .msg-form textarea {
-  padding: 10px;
-  border: 1px solid var(--brown);
-  border-radius: 6px;
-  background-color: var(--cream);
-  font-family: inherit;
-  color: var(--brown);
+    padding: 10px;
+    border: 1px solid #6b4423;
+    border-radius: 6px;
+    background-color: #f5ecd7;
+    font-family: inherit;
+    color: #6b4423;
 }
 
 .msg-form button {
-  margin-top: 10px;
-  padding: 12px;
-  background-color: var(--green);
-  color: var(--cream);
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #1f4d36;
+    color: #f5ecd7;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-/* footer */
+/* Footer */
 .footer {
-  background-color: var(--green);
-  color: var(--cream);
-  text-align: center;
-  padding: 15px;
+    background-color: #1f4d36;
+    color: #f5ecd7;
+    text-align: center;
+    padding: 15px;
 }
 
-/* chhoti screen ke liye */
-@media (max-width: 800px) {
-  .about,
-  .contact-box,
-  .skill-cards {
-    flex-direction: column;
-  }
-
-  .about-text,
-  .details,
-  .msg-form {
-    width: 100%;
-  }
-}
