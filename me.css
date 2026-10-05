@@ -19,12 +19,12 @@ a {
 h2 {
     color: #1f4d36;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-size: 30px;
 }
 
 section {
-    padding: 60px 8%;
+    padding: 30px 8%;
 }
 
 /* Navbar */
@@ -68,7 +68,7 @@ section {
 
 .about-text h1 {
     font-size: 48px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .btn {
