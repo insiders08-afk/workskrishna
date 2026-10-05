@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Jaiswal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- upar ka navbar -->
+  <header class="navbar">
+    <h2 class="logo">Krishna Jaiswal</h2>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- about wala section -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <p class="hello">Hello, I am</p>
+      <h1>Krishna Jaiswal</h1>
+      <p>
+        I study at Scaler School of Technology, Bangalore, and I am pursuing
+        the IIT Madras BS degree in Data Science.
+      </p>
+      <a class="btn" href="https://github.com/yourusername">My GitHub</a>
+    </div>
+    <img class="profile-img" src="profile.png" alt="Krishna Jaiswal">
+  </section>
+
+  <!-- education ka table -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Qualification</th>
+        <th>Institute</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td>BS Data Science</td>
+        <td>IIT Madras (Scaler School of Technology, Bangalore)</td>
+        <td>Pursuing</td>
+      </tr>
+      <tr>
+        <td>JEE</td>
+        <td>-</td>
+        <td>96 percentile</td>
+      </tr>
+      <tr>
+        <td>Class 12th</td>
+        <td>-</td>
+        <td>91%</td>
+      </tr>
+      <tr>
+        <td>Class 10th</td>
+        <td>-</td>
+        <td>93%</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- skills ke paanch cards -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skill-cards">
+      <div class="card">
+        <img src="python.png" alt="Python">
+        <p>Python</p>
+      </div>
+      <div class="card">
+        <img src="mysql.png" alt="MySQL">
+        <p>MySQL</p>
+      </div>
+      <div class="card">
+        <img src="html.png" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="card">
+        <img src="css.png" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="card">
+        <img src="javascript.png" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section: left me details, right me form -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+
+      <!-- left side ke chaar cards -->
+      <div class="details">
+        <div class="detail-card">
+          <h3>GitHub</h3>
+          <a href="https://github.com/yourusername">yourusername</a>
+        </div>
+        <div class="detail-card">
+          <h3>Gmail</h3>
+          <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
+        </div>
+        <div class="detail-card">
+          <h3>Phone</h3>
+          <a href="tel:+910000000000">+91 00000 00000</a>
+        </div>
+        <div class="detail-card">
+          <h3>LinkedIn</h3>
+          <a href="https://linkedin.com/in/yourusername">yourusername</a>
+        </div>
+      </div>
+
+      <!-- right side ka form -->
+      <form class="msg-form" action="mailto:youremail@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Krishna Jaiswal</p>
+  </footer>
+
+</body>
+</html>
